@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 import { Container } from 'reactstrap'
 import CharactersList from './components/CharactersList.js'
 

@@ -21,10 +21,10 @@ class Character extends Component {
   }
 
   render(){
-    return (<Col xs="3" sm="2" className="pt-5 pb-5">
+    return (<Col xs="3" sm="3" className="pt-5 pb-5">
       <Card className={this.state.status !== 'alive' ? 'dead-style' : null}>
         <CardImg top width="100%" src={ this.props.imgUrl } alt={ this.props.name } className="img-fluid" />
-        <CardBody>
+        <CardBody className="text-center">
           <CardTitle>{ this.props.name }</CardTitle>
           <CardSubtitle className="text-muted">{ this.status }</CardSubtitle>
           <CardText>{ this.state.status }</CardText>
