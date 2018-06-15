@@ -24,12 +24,21 @@ h1, h2 {
   background-color: rgb(245, 17, 150);
 }
 
-.App-heart {
-  animation: App-heart-spin infinite 20s linear;
+.App-heart1 {
+  animation: App-heart-spin infinite 5s linear;
+  height: 40px;
+}
+.App-heart2 {
+  animation: App-heart-antispin infinite 5s linear;
   height: 40px;
 }
 
 @keyframes App-heart-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes App-heart-antispin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
 }

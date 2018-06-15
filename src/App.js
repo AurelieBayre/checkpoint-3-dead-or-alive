@@ -29,7 +29,7 @@ class App extends Component {
         <Container>
           <header className="App-header">
             
-            <h1 className="App-title"> <img src={heart} className="App-heart" alt="heart"/> Kill them with love<img src={heart} className="App-heart" alt="heart"/></h1>
+            <h1 className="App-title"> <img src={heart} className="App-heart1" alt="heart"/> Kill them with love<img src={heart} className="App-heart2" alt="heart"/></h1>
           </header>
           <h2 className="App-intro">
             Click and click and click!
