@@ -10,6 +10,9 @@ h1, h2 {
   color: whitesmoke;
 }
 
+.card, .btn {
+  cursor: url(hearts.png), wait !important;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
