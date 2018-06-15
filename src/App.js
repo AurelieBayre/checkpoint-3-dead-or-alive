@@ -15,9 +15,9 @@ const targets = [
       imgUrl: "https://starwars-visualguide.com/assets/img/characters/2.jpg"
   },
   {
-      name: "Biggs Darklighter",
+      name: "Luke Skywalker",
       status: "dead",
-      imgUrl: "https://starwars-visualguide.com/assets/img/characters/9.jpg"
+      imgUrl: "https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg/revision/latest/scale-to-width-down/500?cb=20170927034529"
   }
 ]
 

@@ -8,7 +8,7 @@ class Character extends Component {
   constructor(props){
     super(props)
     this.state = {
-      status: 'alive'
+      status: this.props.status
     }
     this.freeHug = this.freeHug.bind(this);
   }
