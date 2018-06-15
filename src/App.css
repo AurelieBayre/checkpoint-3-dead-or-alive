@@ -13,7 +13,23 @@ h1, h2 {
 .card, .btn {
   cursor: url(hearts.png), wait !important;
 }
-@keyframes App-logo-spin {
+
+.ressucitate {
+  color:  rgba(245, 17, 150, 0.8);
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.ressucitate-btn {
+  background-color: rgb(245, 17, 150);
+}
+
+.App-heart {
+  animation: App-heart-spin infinite 20s linear;
+  height: 40px;
+}
+
+@keyframes App-heart-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }

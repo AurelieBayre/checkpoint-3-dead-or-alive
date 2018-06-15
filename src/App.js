@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Container } from 'reactstrap'
+import heart from './heart.svg'
+import { Container, Button } from 'reactstrap'
 import CharactersList from './components/CharactersList.js'
 
 const targets = [
@@ -27,12 +28,14 @@ class App extends Component {
       <div className="App">
         <Container>
           <header className="App-header">
-            <h1 className="App-title">Kill them with love</h1>
+            
+            <h1 className="App-title"> <img src={heart} className="App-heart" alt="heart"/> Kill them with love<img src={heart} className="App-heart" alt="heart"/></h1>
           </header>
           <h2 className="App-intro">
             Click and click and click!
           </h2>
           <CharactersList targets={targets}/>
+          <p className="ressucitate">Heroes never dies!!!! <Button className="ressucitate-btn">Ressucitate</Button></p>
         </Container>
       </div>
     );
